@@ -1,0 +1,226 @@
+h4 {
+    color: black;
+    font-size: 8em;
+    opacity: .7;
+    letter-spacing: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    
+}
+
+h5 {
+    color: black;
+}
+
+/* navbar */
+#nav {
+    padding: 0em 0em;
+    margin: 0em 0em;
+}
+#navlogo {
+    
+     height: 8em;
+     width: 15em;
+     /* border-radius: 50%; */
+     /* margin-top: 2em; */
+     z-index: 1;
+     opacity: .5;
+     position: relative;
+    
+     
+     
+ }
+ .navbar-brand {
+     margin-right: 0;
+ }
+   
+ #leftnav {
+    background-image: url(images/coloredpowerfists.jpg);
+    height: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+}
+
+#rightnav {
+    background-image: url(images/monopowerfists.jpg);
+    height: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+}
+ 
+ a.nav-link {
+     font-size: 1.6em;
+     margin: .9em; 
+     color: black;   
+ }
+
+ /* @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  } */
+
+/* First Jumbotron Image */
+ #mainstory {
+     background-image: url(images/streetfish.jpg);
+     background-repeat: no-repeat;
+     height: 30em;
+     background-size: cover;
+     padding: 0;
+     margin: 0;
+     background-position: center;
+     /* z-index: -1; */
+     position: relative;
+ }
+
+#mainstorytextbox {
+    color:black;
+    opacity: .8;
+    z-index: 1;
+    position: relative; 
+    padding: 2em;
+    height: 30em;
+    
+}
+
+/* Second Jumbotron Image */
+#happyhour {
+    background-image: url(images/peoplepowerfisting.jpg);
+    background-repeat: no-repeat;
+    height: 30em;
+    background-size: cover;
+    /* opacity: .5; */
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    /* z-index: -1; */
+    position: relative;
+    
+}
+
+#happyhourtextbox {
+   font-weight: bold;
+   color:white;
+   z-index: 1;
+   position: relative; 
+   padding: 2em;
+   opacity: 1;
+  
+}
+
+#happyhourtextboxtwo {
+    font-weight: bold;
+    color:black;
+    z-index: 1;
+    position: relative; 
+    padding: 2em;
+    opacity: 1;
+    text-align: right; 
+    margin-top: 5em;
+}
+
+/* Third Jumbrotron Image */
+#mainmenu {
+    background-image: url(images/becomebigfish.jpg);
+    background-repeat: no-repeat;
+    height: 30em;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    z-index: -1;
+    position: relative;
+    
+}
+
+#mainmenutextbox {
+   color:white;
+   opacity: .6;
+   z-index: 1;
+   position: relative; 
+   padding: 2em;
+   
+}
+#mainmenutextboxtwo {
+    z-index: 1;
+}
+
+
+
+
+
+ /* carousel */
+.caro-item {
+    height: 50em;
+    max-width: 100%;
+    opacity: .5;
+    /* z-index: -1;
+    position: relative; */
+}
+
+.carousel-caption {
+    top: 5em;
+    position: absolute;
+}
+
+#carouselExampleIndicators {
+    z-index: -1;
+}
+
+
+/* carousel footer */
+#carouselfooter {
+    background-image: url(images/powerfists.jpg);
+    height: 5em;
+
+
+}
+
+/* Homestory */
+#homestorybackground {
+    /* background-image: url(images/romaine.jpg); */
+   background-color: maroon;
+   
+}
+
+#homestory {
+    background-color: black;
+    color: whitesmoke;
+    padding: 5em;
+    
+}
+
+/* contact links */
+#sociallinks {
+    background-color: black;
+    color: whitesmoke;
+}
+.slinks {
+   background-color: black;
+    display: inline-block;
+    padding: 2em;
+}
+.alink {
+    text-align: center;
+}
+
+/* Menu view */
+
+.menubar {
+    display: block;
+    clear: both;
+    position: fixed;
+    background-color: black;
+    color: whitesmoke;
+}
+ 
