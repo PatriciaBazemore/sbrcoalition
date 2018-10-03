@@ -12,10 +12,46 @@ h5 {
     color: black;
 }
 
+#maintop {
+    background-image: url(images/flag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10em;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0em 0em;
+    margin: 0em 0em;
+    max-width: 100%;
+    
+}
+
 /* navbar */
 #nav {
     padding: 0em 0em;
     margin: 0em 0em;
+    
+}
+
+#hamburger {
+    color: black;
+}
+
+.navbar-nav {
+    background-image: url(images/powerfistpaper.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-toggler {
+    font-size: 5em;
+  
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: black;
+
 }
 #navlogo {
     
@@ -25,21 +61,33 @@ h5 {
      /* margin-top: 2em; */
      z-index: 1;
      opacity: .5;
-     position: relative;
-    
-     
-     
+     position: relative;    
  }
  .navbar-brand {
      margin-right: 0;
  }
+ /* #navbarSupportedContent {
+    background-image: url(images/powerfistpaper.png);
+    width: 15em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0em 0em;
+ } */
+ #mainnav {
+    background-image: url(images/powerfistpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0em;
+    margin: 0em;
+}
    
- #leftnav {
+ /* #leftnav {
     background-image: url(images/coloredpowerfists.jpg);
     height: 10em;
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: absolute; */
+    padding: 0em;
+    margin: 0em;
 }
 
 #rightnav {
@@ -47,13 +95,14 @@ h5 {
     height: 10em;
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: absolute; */
-}
+    margin: 0em;
+    padding: 0em;
+} */
  
  a.nav-link {
      font-size: 1.6em;
      margin: .9em; 
-     color: black;   
+        
  }
 
  /* @media screen and (max-width: 600px) {
@@ -131,7 +180,7 @@ h5 {
 
 /* Third Jumbrotron Image */
 #mainmenu {
-    background-image: url(images/becomebigfish.jpg);
+    background-image: url(images/borhero.jpg);
     background-repeat: no-repeat;
     height: 30em;
     background-size: cover;
@@ -140,6 +189,7 @@ h5 {
     background-position: center;
     z-index: -1;
     position: relative;
+    /* opacity: .5; */
     
 }
 
@@ -180,8 +230,8 @@ h5 {
 
 /* carousel footer */
 #carouselfooter {
-    background-image: url(images/powerfists.jpg);
-    height: 5em;
+    background-image: url(images/powerfistpaper.png);
+    height: 10em;
 
 
 }
@@ -189,7 +239,7 @@ h5 {
 /* Homestory */
 #homestorybackground {
     /* background-image: url(images/romaine.jpg); */
-   background-color: maroon;
+   background-color: gray;
    
 }
 
