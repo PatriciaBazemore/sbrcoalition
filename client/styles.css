@@ -25,10 +25,29 @@ h5 {
     
 }
 
+#greeting {
+    background-image: url(images/topflag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 9em;
+    text-align: center;
+}
+#greetingtext {
+    font-size: 4em;
+    padding: 1em 1em;
+    margin: 1em 1em;
+    text-align: center;
+    padding: 0 0;
+    margin: 1em auto;
+    
+    
+}
+
 /* navbar */
 #nav {
     padding: 0em 0em;
     margin: 0em 0em;
+    
     
 }
 
@@ -36,11 +55,19 @@ h5 {
     color: black;
 }
 
+#navbarSupportedContent {
+    width: 20em;
+}
+
 .navbar-nav {
-    background-image: url(images/powerfistpaper.png);
+    /* background-image: url(images/powerfistpaper.png); */
     
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #3A3737;
+    padding: 0em;
+    margin: 0em;
+
 }
 .navbar-toggler {
     font-size: 5em;
@@ -74,11 +101,12 @@ h5 {
     margin: 0em 0em;
  } */
  #mainnav {
-    background-image: url(images/powerfistpaper.png);
+    /* background-image: url(images/powerfistpaper.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     padding: 0em;
     margin: 0em;
+    background-color: #3A3737;
 }
    
  /* #leftnav {
@@ -228,18 +256,13 @@ h5 {
 }
 
 
-/* carousel footer */
-#carouselfooter {
-    background-image: url(images/powerfistpaper.png);
-    height: 10em;
 
-
-}
 
 /* Homestory */
-#homestorybackground {
+#footerbackground {
     /* background-image: url(images/romaine.jpg); */
-   background-color: gray;
+   /* background-color: gray; */
+   background-color: #3A3737;
    
 }
 
@@ -273,4 +296,10 @@ h5 {
     background-color: black;
     color: whitesmoke;
 }
+
+.fab {
+    height: 2em;
+    width: 2em;
+}
  
+
