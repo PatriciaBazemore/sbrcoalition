@@ -1,27 +1,27 @@
-angular.module('Restaurant', ['ngRoute', 'ngResource'])
-.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-    $locationProvider.html5Mode(true);
-    $routeProvider
-    .when('/', {
-        templateUrl: 'views/welcome.html',
-        // controller: 'WelcomeController'
-    })
-    .when('/aboutus', {
-        templateUrl: 'views/aboutus.html',
-        // controller: 'AboutusController'
-    })
-    .when('/contactus', {
-        templateUrl: 'views/contactus.html',
-        // controller: 'ContactusController'
-    })
-    .when('/directions', {
-        templateUrl: 'views/directions.html',
-        // controller: 'DirectionsController'
-    })
-    .when('/menu', {
-        templateUrl: 'views/menu.html',
-        // controller: 'MenuController'
-    })
+// angular.module('Restaurant', ['ngRoute', 'ngResource'])
+// .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+//     $locationProvider.html5Mode(true);
+//     $routeProvider
+//     .when('/', {
+//         templateUrl: 'views/welcome.html',
+//         // controller: 'WelcomeController'
+//     })
+//     .when('/aboutus', {
+//         templateUrl: 'views/aboutus.html',
+//         // controller: 'AboutusController'
+//     })
+//     .when('/contactus', {
+//         templateUrl: 'views/contactus.html',
+//         // controller: 'ContactusController'
+//     })
+//     .when('/directions', {
+//         templateUrl: 'views/directions.html',
+//         // controller: 'DirectionsController'
+//     })
+//     .when('/menu', {
+//         templateUrl: 'views/menu.html',
+//         // controller: 'MenuController'
+//     })
     // .when('/category/:id', {
     //     templateUrl: 'views/category.html',
     //     controller: 'CategoryController'
@@ -40,7 +40,7 @@ angular.module('Restaurant', ['ngRoute', 'ngResource'])
     //     controller: 'CartController'
     // })
     
-    .otherwise({
-        redirectTo: '/'
-    });
-}]);
+//     .otherwise({
+//         redirectTo: '/'
+//     });
+// }]);
