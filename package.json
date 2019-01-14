@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/PatriciaBazemore/sbrcoalition#readme",
   "dependencies": {
+    "api": "^1.0.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "cookieparser": "^0.1.0",
