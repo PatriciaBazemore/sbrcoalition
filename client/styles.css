@@ -303,3 +303,12 @@ h5 {
 }
  
 
+/* The Rights */
+
+#fullpage {
+    background-image: url(images/parchment.jpg);
+    background-repeat: no-repeat;
+    height: 30em;
+    background-size: cover;
+    color: red;
+}
